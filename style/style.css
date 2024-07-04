@@ -1,27 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Space+Grotesk:wght@300..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
 h2{
-    color: tomato;
+    color: rgb(255, 255, 255);
     font-style: italic;
-    font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;
+    font-weight: 800;
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: overline;
     font-size: 40px;
     text-align: center;
     
 }
 
 #heading-parent{
-    background-color: aqua;
-    height: 200px;
-    padding: 50px 0;
-    width: 800px;
+    /* background-color: aqua; */
+    /* background-image: linear-gradient(to top, rgb(164, 222, 164),rgb(0, 217, 255)
+    ); */
+    /* background-image: linear-gradient(45deg, rgb(164, 222, 164),rgb(0, 217, 255)
+    ); */
+    background-image: linear-gradient(45deg, #20e9f06d,transparent),url("../assets/tree-736885_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 40px 0;
+    max-width: 800px;
     /* margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto; */
     margin: 30px auto;
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 77% 100%, 0 100%);
+}
+
+.btn{
+    background-color: rgb(217, 255, 3);
+    padding: 8px 15px;
+    color: blue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(158, 0, 172);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Gamja Flower", sans-serif;
+}
+
+.btn-prnt{
+    text-align: center;
+    margin: 20px 0;
+    /* background-color: rgb(242, 227, 191); */
 }
