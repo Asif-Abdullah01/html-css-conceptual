@@ -57,3 +57,9 @@ h2{
     margin: 20px 0;
     /* background-color: rgb(242, 227, 191); */
 }
+
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: all 1s;
+}
